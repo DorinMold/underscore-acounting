@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Arima-madurai';
+    src: url("../assets/ArimaMadurai-Regular.ttf") format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+     url("../assets/ArimaMadurai-Regular.ttf") format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  }  
+
+@font-face {
+    font-family: "Open-sans";
+    src: url("../assets/OpenSans-Regular.ttf") format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+     url("../assets/OpenSans-Regular.ttf") format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  }  
+
+$font__main: "Open-sans";
+$font__second: "Arima-madurai";
+$font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+$font__pre: "Courier 10 Pitch", Courier, monospace;
+$font__line-height-body: 1.5;
+$font__line-height-pre: 1.6;
+
+$bg__color: #344053;
+$color__font: #E8C547;
+$color__light: #CDD1C4;
